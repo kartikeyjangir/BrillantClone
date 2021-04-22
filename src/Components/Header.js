@@ -7,7 +7,7 @@ function Header() {
       <header className="row ">
         <div className="logo">
           < Link to="/">
-            <img src="../images/logo.png" alt="logo"/>
+            <img src="images/logo.png" alt="logo"/>
           </Link>
         </div>
 
