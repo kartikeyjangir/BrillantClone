@@ -1,13 +1,298 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1f1f1f;
+  font-size: 1.6rem;
+}
+
+/* common */
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 2.4rem;
+  font-weight: normal;
+}
+h3 {
+  margin-bottom: 4px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+p {
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.row2 {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+.container {
+  padding: 1rem 8rem;
+  background: #ffffff;
+  margin-bottom: 3.5rem;
+}
+
+/* HEADER */
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #ecedef;
+  height: 6rem;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+.logo {
+  padding-left: 7.4rem;
+}
+
+header button {
+  margin-right: 8rem;
+  color: rgb(43, 124, 43);
+  font-weight: 500;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(51, 146, 51);
+  background-color: #ffffff;
+}
+
+header button:hover {
+  box-shadow: 1px 1px 1px rgb(43, 124, 43);
+}
+
+/* MAIN */
+main {
+  margin-top: 6.1rem;
+}
+
+/* .HeaderContent */
+.HeaderContent {
+  padding: 4.5rem 8rem;
+  background-color: #f8f8f8;
+}
+
+.HeaderContent .row div > * {
+  margin-bottom: 3.4rem;
+  padding-right: 5rem;
+}
+
+.HeaderContent .row div p {
+  line-height: 2.6rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* sections */
+.itemno {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: rgba(175, 179, 180, 0.5);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  color: blue;
+}
+
+/* card */
+.card {
+  width: 29rem;
+  height: 32rem;
+  margin: 1rem;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+}
+
+.text {
+  padding: 3rem 0;
+  height: 10rem;
+}
+
+.line {
+  border-top: 4px solid rgb(233, 233, 233);
+}
+
+.wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* overflow-x: auto; */
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0%;
+}
+
+
+/* /footer */
+.centerme{
+  width: 70rem;
+  margin: 5rem auto;
+}
+
+.centerme .content{
+  margin-top: 1.5rem;
+  padding: 3rem;
+  border-top: 1px solid gray;
+}
+
+
+
+/* wram */
+.warmcontent {
+  width: 100%;
+  height: 91vh;
+}
+.leftbar {
+  flex-basis: 15%;
+  background-color: black;
+  color: white;
+  height: 100%;
+  position: fixed;
+  top: 6rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainsection {
+  flex-basis: 55%;
+  margin-left: 15rem;
+  border-right: 1px solid #ecedef;
+  height: 100%;
+  padding: 15rem 6rem 5rem 6rem;
+
+}
+.rightbar {
+  flex-basis: 35%;
+  height: 100%;
+  padding: 20rem 3rem 9rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+.lesson h5{
+  cursor: pointer;
+  color: #bbb;
+
+}
+.lesson h5:hover{
+  color: rgb(49, 47, 47);
+}
+.prop_marker {
+  border-width: 0 1px;
+  border-color: #fff;
+  background: #f0f0f0;
+  display: table-cell;
+  height: 13px;
+  width: 3.7rem;
+  border-right: 1px solid #bbb;
+  line-height: 0;
+  transition: transform .2s; 
+}
+
+.third{
+  background-color: black;
+}
+.prop_marker:hover{
+padding: .3rem 0;
+}
+.prop_marker:active{
+  background-color: yellow;
+}
+.proppicker>*{
+  margin-right: .2rem;
+}
+
+.active_class{
+  background-color: yellow;
+}
+
+
+/* mainsection */
+.probp{
+  color: black;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.buttonprop button{
+  width: 24rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 4rem;
+}
+
+
+
+
+/* prob */
+.drop{
+  width: 20rem;
+  height: 25rem;
+  border: 2px dotted black;
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.drop:hover{
+  border: 2px dotted blue;
+}
+
+.probimag5 img{
+  width: 14rem;
+  box-sizing: border-box;
+}
+
+.probimag img{
+  width: 18rem;
+  height: 20rem;
+}
+
+.probimag4 img{
+  width: 14rem;
+  box-sizing: border-box;
+}
+
+.probimag div ,.probimag5 div,.probimag4 div{
+  text-align: center;
 }
