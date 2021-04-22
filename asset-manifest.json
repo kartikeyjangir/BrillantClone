@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/BrillantClone/static/css/main.16bda5c3.chunk.css",
+    "main.js": "/BrillantClone/static/js/main.3f581568.chunk.js",
+    "main.js.map": "/BrillantClone/static/js/main.3f581568.chunk.js.map",
+    "runtime-main.js": "/BrillantClone/static/js/runtime-main.ece7b779.js",
+    "runtime-main.js.map": "/BrillantClone/static/js/runtime-main.ece7b779.js.map",
+    "static/js/2.71c143d5.chunk.js": "/BrillantClone/static/js/2.71c143d5.chunk.js",
+    "static/js/2.71c143d5.chunk.js.map": "/BrillantClone/static/js/2.71c143d5.chunk.js.map",
+    "static/js/3.68921a44.chunk.js": "/BrillantClone/static/js/3.68921a44.chunk.js",
+    "static/js/3.68921a44.chunk.js.map": "/BrillantClone/static/js/3.68921a44.chunk.js.map",
+    "index.html": "/BrillantClone/index.html",
+    "static/css/main.16bda5c3.chunk.css.map": "/BrillantClone/static/css/main.16bda5c3.chunk.css.map",
+    "static/js/2.71c143d5.chunk.js.LICENSE.txt": "/BrillantClone/static/js/2.71c143d5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ece7b779.js",
+    "static/js/2.71c143d5.chunk.js",
+    "static/css/main.16bda5c3.chunk.css",
+    "static/js/main.3f581568.chunk.js"
+  ]
+}
